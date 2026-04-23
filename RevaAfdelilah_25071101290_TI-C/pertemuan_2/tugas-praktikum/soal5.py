@@ -1,7 +1,7 @@
 import math
-
 def jarak(x1, y1, x2, y2):
-    return math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
-
-hasil = jarak(1, 2, 4, 6)
-print("Jarak =", hasil)
+    return math.sqrt((x2-x1)**2 + (y2-y1)**2)
+x1, y1 = 1, 2
+x2, y2 = 4, 6
+hasil_jarak = jarak(x1, y1, x2, y2)
+print("Jarak antara titik (", x1, y1,") dan titik (", x2, y2,") adalah ", hasil_jarak) 

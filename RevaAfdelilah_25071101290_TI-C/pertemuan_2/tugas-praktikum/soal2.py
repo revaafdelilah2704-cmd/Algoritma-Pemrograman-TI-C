@@ -19,9 +19,3 @@ hasil_prima = bilangan_prima(50)
 
 # Menampilkan hasil
 print("Bilangan prima 1 sampai 50:", hasil_prima)
-        
-
-    
-    
-
-
